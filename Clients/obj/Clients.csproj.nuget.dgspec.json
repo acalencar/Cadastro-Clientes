@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dih\\Desktop\\clients\\Cadastro-Clientes\\Clients\\Clients.csproj": {}
+    "/Users/antoniocarlosdealencar/Documents/projetos/Cadastro-Clientes/Clients/Clients.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dih\\Desktop\\clients\\Cadastro-Clientes\\Clients\\Clients.csproj": {
+    "/Users/antoniocarlosdealencar/Documents/projetos/Cadastro-Clientes/Clients/Clients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dih\\Desktop\\clients\\Cadastro-Clientes\\Clients\\Clients.csproj",
+        "projectUniqueName": "/Users/antoniocarlosdealencar/Documents/projetos/Cadastro-Clientes/Clients/Clients.csproj",
         "projectName": "Clients",
-        "projectPath": "C:\\Users\\dih\\Desktop\\clients\\Cadastro-Clientes\\Clients\\Clients.csproj",
-        "packagesPath": "C:\\Users\\dih\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dih\\Desktop\\clients\\Cadastro-Clientes\\Clients\\obj\\",
+        "projectPath": "/Users/antoniocarlosdealencar/Documents/projetos/Cadastro-Clientes/Clients/Clients.csproj",
+        "packagesPath": "/Users/antoniocarlosdealencar/.nuget/packages/",
+        "outputPath": "/Users/antoniocarlosdealencar/Documents/projetos/Cadastro-Clientes/Clients/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dih\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/antoniocarlosdealencar/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -73,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
