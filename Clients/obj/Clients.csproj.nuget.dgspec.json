@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/antoniocarlosdealencar/Documents/projetos/Cadastro-Clientes/Clients/Clients.csproj": {}
+    "c:\\Users\\dih\\Desktop\\clients\\atual\\Cadastro-Clientes\\Clients\\Clients.csproj": {}
   },
   "projects": {
-    "/Users/antoniocarlosdealencar/Documents/projetos/Cadastro-Clientes/Clients/Clients.csproj": {
+    "c:\\Users\\dih\\Desktop\\clients\\atual\\Cadastro-Clientes\\Clients\\Clients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/antoniocarlosdealencar/Documents/projetos/Cadastro-Clientes/Clients/Clients.csproj",
+        "projectUniqueName": "c:\\Users\\dih\\Desktop\\clients\\atual\\Cadastro-Clientes\\Clients\\Clients.csproj",
         "projectName": "Clients",
-        "projectPath": "/Users/antoniocarlosdealencar/Documents/projetos/Cadastro-Clientes/Clients/Clients.csproj",
-        "packagesPath": "/Users/antoniocarlosdealencar/.nuget/packages/",
-        "outputPath": "/Users/antoniocarlosdealencar/Documents/projetos/Cadastro-Clientes/Clients/obj/",
+        "projectPath": "c:\\Users\\dih\\Desktop\\clients\\atual\\Cadastro-Clientes\\Clients\\Clients.csproj",
+        "packagesPath": "C:\\Users\\dih\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\dih\\Desktop\\clients\\atual\\Cadastro-Clientes\\Clients\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/antoniocarlosdealencar/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,6 +49,10 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
+            "Microsoft.entityframeworkCore.inMemory": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -71,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
