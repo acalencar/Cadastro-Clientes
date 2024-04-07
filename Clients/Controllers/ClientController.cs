@@ -18,7 +18,10 @@ namespace ClientController
         public async Task<ActionResult<List<Client>>> Get([FromServices] DataContext context)
 
         {
-            var clients = await context.Clients.AsNoTracking().ToListAsync();
+            var clients = await context
+            .Clients
+            .Include(x => x.Contato)
+            .AsNoTracking().ToListAsync();
 
 
             return clients;
@@ -33,8 +36,10 @@ namespace ClientController
             int id,
             [FromServices] DataContext context)
         {
-            var clients = await context.Clients.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
-
+            var clients = await context
+            .Clients
+            .Include(x => x.Contato)
+            .AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
             return Ok(clients);
         }
 
