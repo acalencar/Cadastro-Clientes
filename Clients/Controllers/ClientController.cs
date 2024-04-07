@@ -14,9 +14,14 @@ namespace ClientController
         [Route("")]
         [HttpGet]
 
-        public async Task<ActionResult<List<Client>>> Get()
+
+        public async Task<ActionResult<List<Client>>> Get([FromServices] DataContext context)
+
         {
-            return new List<Client>();
+            var clients = await context.Clients.AsNoTracking().ToListAsync();
+
+
+            return clients;
 
         }
 
@@ -24,9 +29,13 @@ namespace ClientController
         [Route("{id:int}")]
         [HttpGet]
 
-        public async Task<ActionResult<Client>> GetbyIdClients(int id)
+        public async Task<ActionResult<Client>> GetbyIdClients(
+            int id,
+            [FromServices] DataContext context)
         {
-            return new Client();
+            var clients = await context.Clients.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
+
+            return Ok(clients);
         }
 
 
@@ -114,8 +123,6 @@ namespace ClientController
                 return BadRequest(new { message = "Não foi possível remover o Cliente" });
 
             }
-
-
             return Ok();
 
         }
