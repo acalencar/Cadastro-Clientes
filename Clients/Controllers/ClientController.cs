@@ -24,7 +24,7 @@ namespace ClientController
             .AsNoTracking().ToListAsync();
 
 
-            return clients;
+            return Ok(clients);
 
         }
 

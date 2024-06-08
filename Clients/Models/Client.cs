@@ -12,10 +12,10 @@ public class Client
 
     //   public Address Endereco { get; set; }
 
-    public Contact? Contato { get; set; }
+    public Contact Contato { get; set; }
 
-    public int ContactId { get; set; }
-    public int AddressId { get; set; }
+  //  public int ContactId { get; set; }
+   // public int AddressId { get; set; }
 
 }
 

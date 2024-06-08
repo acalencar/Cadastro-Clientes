@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\dih\\Desktop\\clients\\atual\\Cadastro-Clientes\\Clients\\Clients.csproj": {}
+    "C:\\gts\\Cadastro-Clientes\\Clients\\Clients.csproj": {}
   },
   "projects": {
-    "c:\\Users\\dih\\Desktop\\clients\\atual\\Cadastro-Clientes\\Clients\\Clients.csproj": {
+    "C:\\gts\\Cadastro-Clientes\\Clients\\Clients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\dih\\Desktop\\clients\\atual\\Cadastro-Clientes\\Clients\\Clients.csproj",
+        "projectUniqueName": "C:\\gts\\Cadastro-Clientes\\Clients\\Clients.csproj",
         "projectName": "Clients",
-        "projectPath": "c:\\Users\\dih\\Desktop\\clients\\atual\\Cadastro-Clientes\\Clients\\Clients.csproj",
+        "projectPath": "C:\\gts\\Cadastro-Clientes\\Clients\\Clients.csproj",
         "packagesPath": "C:\\Users\\dih\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\dih\\Desktop\\clients\\atual\\Cadastro-Clientes\\Clients\\obj\\",
+        "outputPath": "C:\\gts\\Cadastro-Clientes\\Clients\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dih\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
